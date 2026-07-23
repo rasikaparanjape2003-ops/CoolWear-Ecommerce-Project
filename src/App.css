@@ -1,0 +1,29 @@
+.App {
+    text-align: center;
+}
+.carousel-img-wrapper {
+  position: relative;
+}
+
+.carousel-img {
+  height: 500px;
+  object-fit: cover;
+  filter: brightness(80%);
+}
+
+.carousel-overlay {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+}
+
+.carousel-overlay h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.carousel-overlay p {
+  font-size: 18px;
+}
